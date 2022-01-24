@@ -9,11 +9,11 @@ while num > 1
     if mod(num, 2) == 0
         num = num/2;
         data_point(i) = num;
-        iterations(i) = i +1;
+        iterations(i) = i + 1;
     else
         num = 3*num + 1;
         data_point(i) = num;
-        iterations(i) = i +1;
+        iterations(i) = i + 1;
     end
 end
 plot(iterations, data_point,'ko');
